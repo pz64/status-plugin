@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="quicknote.css"/>
+  </head>
+
+<body>
+  <div class="outer-wrapper">
+    <div class="new-note">
+      To
+      <input type="email" name="to">
+      cc
+      <input type="email" name="cc">
+      <br>
+      <br>
+      Subject
+      <input type="text" name="subject">
+      <br>
+      <br>
+      Project name
+      <input type="text" name="project-name">
+      Date
+      <input type="text" name="date">
+
+      <br>
+      <br>
+      
+      Work done
+      <textarea name="work-done"></textarea>
+      Todo
+      <textarea name="to-do"></textarea>
+
+      <button class="add">Show fullscreen</button>
+    </div>
+    <div class="note-preview">
+      Subject (tap below to copy)
+      <div class="subject-preview"></div>
+
+      Body (tap below to copy)
+      <div class="body-preview"></div>
+    </div>
+  </div>
+  <script src="quicknote.js"></script>
+</body>
+
+</html>

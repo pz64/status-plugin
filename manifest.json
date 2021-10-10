@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Status Plugin",
+  "version": "1.0",
+  "description": "Allows the user to make add daily status",
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "storage",
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "32": "icons/icon-32.png"
+    },
+    "default_title": "Status Plugin",
+    "default_popup": "popup/quicknote.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "myadon64de@gmail.com"
+    }
+  },
+  "options_ui": {
+    "open_in_tab": true,
+    "page": "popup/quicknote.html"
+  }
+}

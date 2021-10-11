@@ -59,7 +59,7 @@ initialize();
 
 function initialize() {
 
-  subject.value = "Status Report -  " + getFromattedDate();
+  subject.value = "Status Report - " + getFromattedDate();
   date.value = getFromattedDate();
 
   loadData();
